@@ -1,0 +1,5 @@
+APP_NAME = 天子棋牌UAT
+APP_VERSION = 1.0
+APP_BUNDLE_ID = com.tz.games.uat
+APP_ICON = AppIcon
+GAME_URL = https:\/\/game.tz.games/ThirdPartyHall/?type=1
