@@ -1,0 +1,14 @@
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /game/userOauthLogin      --> CXCProject/apis.UserOauthLogin (4 handlers)
+[GIN-debug] POST   /game/userLogin           --> CXCProject/apis.UserLogin (4 handlers)
+[GIN-debug] POST   /game/liveBetting         --> CXCProject/apis.LiveBetting (4 handlers)
+[GIN-debug] GET    /game/myBetting           --> CXCProject/apis.MyBetting (4 handlers)
+[GIN-debug] GET    /game/lotteryRecords      --> CXCProject/apis.LotteryRecords (4 handlers)
+[GIN-debug] GET    /game/getBlock            --> CXCProject/apis.GetBlock (4 handlers)
+[GIN-debug] POST   /game/selectBet           --> CXCProject/apis.SelectBet (4 handlers)
+[GIN-debug] Listening and serving HTTP on 127.0.0.1:8085
